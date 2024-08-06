@@ -12,9 +12,9 @@ assert person in ('pimama', 'dad'), 'The input should be either "pimama" or "dad
 
 today = input_today()
 assert len(today) == 8, 'The input should be a 8 digits string.'
-assert int(today[0:4]) in range(2024, 2029), 'The input year should be between 2024 and 2029.'
+assert int(today[0:4]) in range(2024, 2030), 'The input year should be between 2024 and 2029.'
 assert int(today[4:6]) in range(1, 13), 'The input year should be between 1 and 12.'
-assert int(today[6:8]) in range(1, 31), 'The input year should be between 1 and 31.'
+assert int(today[6:8]) in range(1, 32), 'The input year should be between 1 and 31.'
 
 #######################
 # rename all jpg files
